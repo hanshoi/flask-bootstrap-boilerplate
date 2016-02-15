@@ -22,9 +22,7 @@ Note that for developing you need to install development dependencies.
 `pip install -r requirements/development.txt`
 
 ## Usage
-Run server with `python server.py`
-
-Watch changes and compile sass
+Watch changes and compile sass and run server.
 ```bash
 make watch
 # in other terminal
