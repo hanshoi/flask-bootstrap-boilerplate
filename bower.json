@@ -1,0 +1,24 @@
+{
+  "name": "flask-bootstrap-boilerplate",
+  "homepage": "https://github.com/hanshoi/flask-bootstrap-boilerplate",
+  "authors": [
+    "Antti Ruotsalainen <antti.ruotsalainen@hanshoi.net>"
+  ],
+  "description": "Simple flask boilerplate with bootstrap, jquery and bower.",
+  "main": "server.py",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.6"
+  }
+}
