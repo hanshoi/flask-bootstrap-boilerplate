@@ -39,6 +39,12 @@ pip install -r requirements/development.txt  # for right dependencies
 python freeze.py
 ```
 
+## Testing
+Run following in root dir.
+```bash
+pip install -e .  # only on first time
+py.test
+```
 
 ## References
 Big thanks to [romainbergers yeoman-flask generator](https://github.com/romainberger/yeoman-flask) for providing some valuable guidelines.

@@ -6,3 +6,5 @@ eproject.cfg
 */__pycache__
 /build
 /.sass-cache
+*.egg-info
+.cache
