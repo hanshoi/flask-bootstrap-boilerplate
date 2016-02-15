@@ -21,14 +21,6 @@ make
 Note that for developing you need to install development dependencies.
 `pip install -r requirements/development.txt`
 
-
-## Freeze
-To create a static bundle of your application using Frozen-Flask do following.
-```bash
-pip install -r requirements/development.txt  # for right dependencies
-python freeze.py
-```
-
 ## Usage
 Run server with `python server.py`
 
@@ -36,6 +28,14 @@ Watch changes and compile sass
 ```bash
 make watch
 python server.py  # starts a server in localhost:5000
+```
+
+
+## Freeze
+To create a static bundle of your application using Frozen-Flask do following.
+```bash
+pip install -r requirements/development.txt  # for right dependencies
+python freeze.py
 ```
 
 
