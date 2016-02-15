@@ -15,6 +15,8 @@ install:
 build:
 	python freeze.py
 
+run:
+	python server.py
 
-.PHONY=[install, compile]  # default action
+.PHONY=[compile, run]  # default action
 

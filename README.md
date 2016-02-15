@@ -15,7 +15,7 @@ Supporting Frozen-Flask for using pure html sites as well as app.
 ## Install
 We need to install python dependencies and bower packages.
 ```bash
-make
+make install
 ```
 
 Note that for developing you need to install development dependencies.
@@ -27,7 +27,8 @@ Run server with `python server.py`
 Watch changes and compile sass
 ```bash
 make watch
-python server.py  # starts a server in localhost:5000
+# in other terminal
+make run  # starts a server in localhost:5000
 ```
 
 
