@@ -8,7 +8,7 @@ Supporting Frozen-Flask for using pure html sites as well as app.
 ## Prequisities
 * npm (install node)
 * pip (python installed)
-** we also recommend `virtualenv` and `virtualenvwrapper`
+  * we also recommend `virtualenv` and `virtualenvwrapper`
 * bower `npm install -g bower`
 * sass `gem install sass`
 
